@@ -1,5 +1,4 @@
-# JenkinsGetPluginApi 
-</br> Get repository:
+# Get Repository 
 </br> git clone https://github.com/smsantana/JenkinsGetPluginApi.git
 </br> cd JenkinsGetPluginApi
 
