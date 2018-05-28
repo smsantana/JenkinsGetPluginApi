@@ -4,7 +4,7 @@ JENKINS_USER="admin"
 JENKINS_PASS="admin123"
 
 echo "Get Jenkins CLI"
-curl 'localhost:8080/jnlpJars/jenkins-cli.jar' > jenkins-cli.jar
+curl '${JENKINS_USER}:${JENKINS_PASS}@${JENKINS_HOST}/jnlpJars/jenkins-cli.jar' > jenkins-cli.jar
 echo;
 
 echo "Get PLugins Instaled Stance: ${JENKINS_HOST}"
