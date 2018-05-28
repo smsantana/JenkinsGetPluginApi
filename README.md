@@ -1,5 +1,5 @@
 # JenkinsGetPluginApi 
-Jenkins Get Inventory Plugin API
+</br> Get repository:
 </br> git clone https://github.com/smsantana/JenkinsGetPluginApi.git
 </br> cd JenkinsGetPluginApi
 
