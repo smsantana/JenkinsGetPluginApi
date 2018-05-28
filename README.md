@@ -1,6 +1,6 @@
 # Get Repository 
-git clone https://github.com/smsantana/JenkinsGetPluginApi.git
-cd JenkinsGetPluginApi
+</br> git clone https://github.com/smsantana/JenkinsGetPluginApi.git
+</br> cd JenkinsGetPluginApi
 
 # Set Parameter Jenkins
 vim getpluginApi.sh 
