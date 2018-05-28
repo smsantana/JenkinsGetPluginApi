@@ -1,5 +1,5 @@
 #!/bin/bash
-JENKINS_HOST="localhost:8080"
+JENKINS_HOST="http://localhost:8080"
 JENKINS_USER="admin"
 JENKINS_PASS="admin123"
 
@@ -10,7 +10,7 @@ echo;
 echo "Get PLugins Instaled Stance: ${JENKINS_HOST}"
 echo;
 
-java -jar jenkins-cli.jar -s http://${JENKINS_USER}:${JENKINS_PASS}@${JENKINS_HOST} groovy = < InventoryPlugins.groovy > plugins.txt
+java -jar jenkins-cli.jar -s ${JENKINS_USER}:${JENKINS_PASS}@${JENKINS_HOST} groovy = < InventoryPlugins.groovy > plugins.txt
 
 echo;
 cat plugins.txt
